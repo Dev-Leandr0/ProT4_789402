@@ -6,6 +6,7 @@ Este repositorio contiene una API REST para gestionar una biblioteca de libros, 
 
 ## Estructura del proyecto
 
+```plaintext
 rest-api/
 ├── node_modules/            # Dependencias instaladas
 ├── script/                  # Scripts SQL para crear la base y datos de prueba
@@ -19,6 +20,7 @@ rest-api/
 ├── package.json             # Configuración y scripts de npm
 ├── package-lock.json        # Versiones fijas de dependencias
 └── README.md                # Documentación del proyecto
+```
 
 ---
 
