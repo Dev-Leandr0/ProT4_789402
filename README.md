@@ -26,9 +26,12 @@ rest-api/
 
 ## Requisitos previos
 
-- Tener instalado Node.js (versión recomendada 16+)
-- Tener instalado MySQL o MariaDB
-- Tener Postman o similar para probar la API (opcional)
+Antes de ejecutar la API, asegurate de tener instalado lo siguiente:
+
+- **Node.js** (versión recomendada: 16 o superior) – Para ejecutar el backend con Express.
+- **XAMPP** o similar – Para levantar el servidor de base de datos MySQL.
+  - Iniciar **MySQL** desde el panel de control de XAMPP.
+- **Postman** (opcional) – Para realizar pruebas a la API de forma visual.
 
 ---
 
@@ -44,6 +47,9 @@ cd rest-api
 2. **Instalar dependencias**
 ```bash
 npm install
+npm install express
+npm install morgan
+npm install mysql2
 ```
 
 3. **Configurar la base de datos**
