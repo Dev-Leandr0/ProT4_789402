@@ -7,19 +7,18 @@ Este repositorio contiene una API REST para gestionar una biblioteca de libros, 
 ## Estructura del proyecto
 
 rest-api/
-├── node_modules/ # Dependencias instaladas
-├── script/ # Scripts SQL para crear la base y datos de prueba
-│ ├── modelo_datos.sql # Script para crear la tabla libros
-│ └── datos_prueba.sql # Script para insertar datos de prueba
-├── src/ # Código fuente del backend
-│ ├── controller.js # Lógica de los endpoints
-│ ├── database.js # Configuración y conexión a la base de datos
-│ ├── index.js # Archivo principal para arrancar el servidor
-│ └── routes.js # Definición de rutas de la API
-├── package.json # Configuración y scripts de npm
-├── package-lock.json # Versiones fijas de dependencias
-└── README.md # Documentación del proyecto
-
+├── node_modules/            # Dependencias instaladas
+├── script/                  # Scripts SQL para crear la base y datos de prueba
+│   ├── modelo_datos.sql     # Script para crear la tabla libros
+│   └── datos_prueba.sql     # Script para insertar datos de prueba
+├── src/                     # Código fuente del backend
+│   ├── controller.js        # Lógica de los endpoints
+│   ├── database.js          # Configuración y conexión a la base de datos
+│   ├── index.js             # Archivo principal para arrancar el servidor
+│   └── routes.js            # Definición de rutas de la API
+├── package.json             # Configuración y scripts de npm
+├── package-lock.json        # Versiones fijas de dependencias
+└── README.md                # Documentación del proyecto
 
 ---
 
@@ -36,7 +35,7 @@ rest-api/
 1. **Clonar el repositorio**
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/Dev-Leandr0/ProT4_789402/edit/api-rest
 cd rest-api
 ```
 
